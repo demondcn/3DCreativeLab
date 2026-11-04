@@ -1,0 +1,21 @@
+{
+  "regions": [
+    {"id":"masthead","kind":"chrome","grid":"A0:J0","note":"black navigation bar with brand, links and WhatsApp action"},
+    {"id":"brand","kind":"text","grid":"A0:C0","note":"3DCreativeLab wordmark"},
+    {"id":"nav-products","kind":"text","grid":"E0:F0","note":"Productos navigation link"},
+    {"id":"nav-custom","kind":"text","grid":"F0:G0","note":"Personalizados navigation link"},
+    {"id":"nav-process","kind":"text","grid":"G0:I0","note":"Como fabricamos navigation link"},
+    {"id":"whatsapp","kind":"control","grid":"I0:J0","note":"red WhatsApp contact button"},
+    {"id":"hero-headline","kind":"text","grid":"A1:C3","note":"Del archivo al objeto display headline"},
+    {"id":"hero-support","kind":"text","grid":"A4:C5","note":"Spanish offer statement about professional printed pieces"},
+    {"id":"hero-action","kind":"control","grid":"A6:C6","note":"red Explorar catalogo action"},
+    {"id":"inspection-line","kind":"image","pixelBox":{"x":425,"y":78,"w":1161,"h":665},"bleed":true,"note":"photographic 3D printing inspection line with three product stations, matte filament products and workshop background, no interface text or signs"},
+    {"id":"product-one-data","kind":"text","grid":"D1:F3","note":"Maceta facetada product name, demo price, availability and fabrication time"},
+    {"id":"product-two-data","kind":"text","grid":"F1:H3","note":"Soporte para audifonos product name, demo price, availability and fabrication time"},
+    {"id":"product-three-data","kind":"text","grid":"H1:J3","note":"Dinosaurio articulado product name, demo price, under-order state and fabrication time"},
+    {"id":"custom-band","kind":"chrome","grid":"A8:H9","note":"solid red personalized request section field"},
+    {"id":"custom-title","kind":"text","grid":"A8:D9","note":"Necesitas una pieza personalizada heading"},
+    {"id":"custom-copy","kind":"text","grid":"E8:H9","note":"paragraph reading Cuentanos tu idea, te asesoramos y la fabricamos en 3D","codeDrawn":true},
+    {"id":"printer-detail","kind":"image","grid":"I8:J9","note":"close photograph of a 3D printer nozzle producing a red gear, no interface text"}
+  ]
+}

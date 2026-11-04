@@ -1,0 +1,37 @@
+{
+  "title": "Elige la composición de 3DCreativeLab",
+  "question": "Las tres opciones conservan la dirección Orden de taller y la paleta roja, blanca y negra. Elige la composición que debe convertirse en la tienda real.",
+  "options": [
+    {
+      "id": "production-sheet",
+      "label": "Ficha de producción",
+      "thesis": "Un producto principal, su información y la acción se leen como una gran orden de fabricación.",
+      "palette": ["#FFFFFF", "#000000", "#E10600"],
+      "materials": ["papel de taller", "tinta", "filamento mate"],
+      "viewport": "La información rodea una pieza roja monumental dentro de una ficha clara.",
+      "risk": "Es la opción más directa y comercial, pero muestra un solo producto en el primer vistazo.",
+      "comp": ".impeccable/mocks/decision/model-pick-red.png"
+    },
+    {
+      "id": "object-from-plan",
+      "label": "Objeto que sale del plano",
+      "thesis": "La pieza terminada emerge físicamente de su plano de producción.",
+      "palette": ["#FFFFFF", "#000000", "#E10600"],
+      "materials": ["papel técnico", "tinta", "filamento blanco"],
+      "viewport": "Una lámpara lunar rompe el marco de su hoja viajera y demuestra la fabricación.",
+      "risk": "La composición es más memorable, aunque exige una fotografía de producto muy cuidada.",
+      "comp": ".impeccable/mocks/production-product.png"
+    },
+    {
+      "id": "inspection-line",
+      "label": "Línea de inspección",
+      "thesis": "Tres productos ocupan estaciones de una misma línea de fabricación.",
+      "palette": ["#FFFFFF", "#000000", "#E10600"],
+      "materials": ["metal", "etiquetas de inspección", "filamento"],
+      "viewport": "La oferta y tres productos comparables se entienden en un solo vistazo.",
+      "risk": "Es la más dinámica, pero puede acercarse demasiado a la imagen de una fábrica industrial.",
+      "comp": ".impeccable/mocks/production-catalog.png"
+    }
+  ],
+  "followup": true
+}

@@ -1,0 +1,38 @@
+{
+  "name": "3dcreativelab-store",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "db:inspect": "node --env-file=.env.local scripts/db-inspect.mjs",
+    "db:migrate": "node --env-file=.env.local scripts/db-migrate.mjs",
+    "db:smoke": "node --env-file=.env.local scripts/db-smoke.mjs",
+    "auth:smoke": "node --env-file=.env.local scripts/auth-smoke.mjs",
+    "e2e:public": "node --env-file=.env.local scripts/public-e2e.mjs"
+  },
+  "dependencies": {
+    "@neon/auth": "latest",
+    "@neondatabase/serverless": "latest",
+    "@vercel/blob": "^2.4.0",
+    "next": "16.4.5",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.14",
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.3",
+    "@types/react-dom": "^19.0.2",
+    "eslint": "^9.17.0",
+    "eslint-config-next": "16.4.5",
+    "tailwindcss": "^4.1.14",
+    "typescript": "^5.7.2",
+    "vitest": "5.1.0"
+  }
+}

@@ -1,0 +1,1295 @@
+{
+ "url": "http://127.0.0.1:3001",
+ "at": "2026-11-04T03:20:42.468Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    1,
+    0.67,
+    0.23,
+    1,
+    0.89
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 4246,
+     "screens": 4.7,
+     "words": 118,
+     "img": 2,
+     "video": 0,
+     "canvas": 0,
+     "svg": 2,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 2,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fimages%2Finspection-line.png&w=1080",
+      "image?url=%2Fimages%2Fprinter-detail.png&w=640&q"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": null,
+    "h1": {
+     "text": "Del archivoal objeto",
+     "words": 3,
+     "lines": 1,
+     "size": 32,
+     "font": "Times New Roman"
+    },
+    "headings": [
+     {
+      "text": "Del archivoal objeto",
+      "words": 3,
+      "chars": 20,
+      "lines": 1,
+      "size": 32,
+      "vw": 2.2,
+      "font": "Times New Roman",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.99,
+      "top": 1511,
+      "tag": "h1",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 1,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Times New Roman",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      16,
+      19,
+      24,
+      32
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "Times New Roman",
+      "size": 16,
+      "leading": 1.2,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 21
+     },
+     "measureChars": 178,
+     "max": {
+      "size": 32,
+      "vw": 2.2,
+      "font": "Times New Roman",
+      "text": "Del archivo"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [
+     {
+      "text": "WhatsApp",
+      "above": "Del archivoal objeto",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 16,
+      "top": 1472
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [],
+     "textColors": [
+      {
+       "color": "#000000",
+       "share": 0.81
+      },
+      {
+       "color": "#0000ee",
+       "share": 0.19
+      }
+     ],
+     "button": null,
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 0,
+     "inHero": 0,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 2,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 1
+     },
+     {
+      "type": "svg",
+      "ratio": 0.98
+     }
+    ],
+    "nav": {
+     "links": 0,
+     "fixed": false,
+     "height": 1482,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": []
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 4246,
+    "margins": {
+     "left": 8,
+     "right": 792
+    },
+    "sections": [
+     {
+      "sel": "header.hero-nav",
+      "tag": "header",
+      "top": 8,
+      "height": 1482,
+      "words": 6,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 8,
+      "right": 1158,
+      "textLeft": 8,
+      "textRight": 1158,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.custom-strip",
+      "tag": "div",
+      "top": 1642,
+      "height": 485,
+      "words": 13,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Tu pieza",
+       "size": 24,
+       "tag": "h2"
+      },
+      "left": 8,
+      "right": 792,
+      "textLeft": 8,
+      "textRight": 1071,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#fabricacion.process-section",
+      "tag": "section",
+      "top": 2231,
+      "height": 338,
+      "words": 44,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "De idea a pieza",
+       "size": 24,
+       "tag": "h2"
+      },
+      "left": 8,
+      "right": 1002,
+      "textLeft": 8,
+      "textRight": 1002,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer",
+      "tag": "footer",
+      "top": 2688,
+      "height": 1532,
+      "words": 19,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 8,
+      "right": 1148,
+      "textLeft": 8,
+      "textRight": 1148,
+      "fullBleed": true,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Del archivoal objeto",
+      "size": 32,
+      "top": 1511,
+      "firstScreen": false
+     }
+    ],
+    "edgeText": [
+     {
+      "text": "3DCreativeLab",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "Productos",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "WhatsApp",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "Del archivo",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "Imprimimos piezas con acabado profesional, disponi",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "Explorar catálogo",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "Tu pieza",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "Cuéntanos tu idea, te asesoramos y la fabricamos e",
+      "side": "left",
+      "px": 8
+     }
+    ],
+    "edges": [
+     {
+      "x": 8,
+      "n": 7
+     },
+     {
+      "x": 94,
+      "n": 1
+     },
+     {
+      "x": 165,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 9,
+    "bodySize": 16,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 3,
+   "filled": [
+    1,
+    0.53,
+    0.82
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 2902,
+     "screens": 2.8,
+     "words": 118,
+     "img": 2,
+     "video": 0,
+     "canvas": 0,
+     "svg": 2,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 2,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fimages%2Finspection-line.png&w=828&",
+      "image?url=%2Fimages%2Fprinter-detail.png&w=640&q"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Del archivoal objeto",
+     "words": 3,
+     "chars": 20,
+     "lines": 1,
+     "size": 32,
+     "vw": 4.2,
+     "font": "Times New Roman",
+     "weight": 700,
+     "tracking": 0,
+     "leading": 1.2,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.98,
+     "top": 839,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Del archivoal objeto",
+     "words": 3,
+     "lines": 1,
+     "size": 32,
+     "font": "Times New Roman"
+    },
+    "headings": [
+     {
+      "text": "Del archivoal objeto",
+      "words": 3,
+      "chars": 20,
+      "lines": 1,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Times New Roman",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.98,
+      "top": 839,
+      "tag": "h1",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 1,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Times New Roman",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      16,
+      19,
+      24,
+      32
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "Times New Roman",
+      "size": 16,
+      "leading": 1.2,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 21
+     },
+     "measureChars": 94,
+     "max": {
+      "size": 32,
+      "vw": 4.2,
+      "font": "Times New Roman",
+      "text": "Del archivo"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [
+     {
+      "text": "WhatsApp",
+      "above": "Del archivoal objeto",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 16,
+      "top": 800
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [],
+     "textColors": [
+      {
+       "color": "#000000",
+       "share": 0.81
+      },
+      {
+       "color": "#0000ee",
+       "share": 0.19
+      }
+     ],
+     "button": null,
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 0,
+     "inHero": 0,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 2,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 1
+     },
+     {
+      "type": "svg",
+      "ratio": 0.72
+     }
+    ],
+    "nav": {
+     "links": 0,
+     "fixed": false,
+     "height": 810,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": []
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 2902,
+    "margins": {
+     "left": 8,
+     "right": 120
+    },
+    "sections": [
+     {
+      "sel": "section.first-viewport",
+      "tag": "section",
+      "top": 8,
+      "height": 1447,
+      "words": 35,
+      "media": 2,
+      "middle": 0,
+      "heading": null,
+      "left": 8,
+      "right": 120,
+      "textLeft": 8,
+      "textRight": 254,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#fabricacion.process-section",
+      "tag": "section",
+      "top": 1559,
+      "height": 338,
+      "words": 44,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "De idea a pieza",
+       "size": 24,
+       "tag": "h2"
+      },
+      "left": 8,
+      "right": 330,
+      "textLeft": 8,
+      "textRight": 330,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer",
+      "tag": "footer",
+      "top": 2016,
+      "height": 860,
+      "words": 19,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 8,
+      "right": 476,
+      "textLeft": 8,
+      "textRight": 476,
+      "fullBleed": true,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Del archivoal objeto",
+      "size": 32,
+      "top": 839,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [
+     {
+      "text": "3DCreativeLab",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "Productos",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "WhatsApp",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "Del archivo",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "Imprimimos piezas con acabado profesional, disponi",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "Explorar catálogo",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "Tu pieza",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "Cuéntanos tu idea, te asesoramos y la fabricamos e",
+      "side": "left",
+      "px": 8
+     }
+    ],
+    "edges": [
+     {
+      "x": 8,
+      "n": 7
+     },
+     {
+      "x": 94,
+      "n": 1
+     },
+     {
+      "x": 165,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 9,
+    "bodySize": 16,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 3,
+   "filled": [
+    0.64,
+    0.48,
+    0.48
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 648,
+     "h": 1403
+    },
+    "page": {
+     "height": 2254,
+     "screens": 1.6,
+     "words": 118,
+     "img": 2,
+     "video": 0,
+     "canvas": 0,
+     "svg": 2,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 2,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fimages%2Finspection-line.png&w=640&",
+      "image?url=%2Fimages%2Fprinter-detail.png&w=640&q"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Del archivoal objeto",
+     "words": 3,
+     "chars": 20,
+     "lines": 1,
+     "size": 32,
+     "vw": 4.9,
+     "font": "Times New Roman",
+     "weight": 700,
+     "tracking": 0,
+     "leading": 1.2,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.58,
+     "top": 461,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Del archivoal objeto",
+     "words": 3,
+     "lines": 1,
+     "size": 32,
+     "font": "Times New Roman"
+    },
+    "headings": [
+     {
+      "text": "Del archivoal objeto",
+      "words": 3,
+      "chars": 20,
+      "lines": 1,
+      "size": 32,
+      "vw": 4.9,
+      "font": "Times New Roman",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.58,
+      "top": 461,
+      "tag": "h1",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 1,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Times New Roman",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      16,
+      19,
+      24,
+      32
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "Times New Roman",
+      "size": 16,
+      "leading": 1.2,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 21
+     },
+     "measureChars": 47,
+     "max": {
+      "size": 32,
+      "vw": 4.9,
+      "font": "Times New Roman",
+      "text": "Del archivo"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [
+     {
+      "text": "WhatsApp",
+      "above": "Del archivoal objeto",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 16,
+      "top": 422
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [],
+     "textColors": [
+      {
+       "color": "#000000",
+       "share": 0.81
+      },
+      {
+       "color": "#0000ee",
+       "share": 0.19
+      }
+     ],
+     "button": null,
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 0,
+     "inHero": 0,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 2,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.36
+     },
+     {
+      "type": "img",
+      "ratio": 0.28
+     },
+     {
+      "type": "svg",
+      "ratio": 0.15
+     }
+    ],
+    "nav": {
+     "links": 0,
+     "fixed": false,
+     "height": 432,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": []
+   },
+   "layout": {
+    "viewport": {
+     "w": 648,
+     "h": 1403
+    },
+    "pageH": 2254,
+    "margins": {
+     "left": 8,
+     "right": 266
+    },
+    "sections": [],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Del archivoal objeto",
+      "size": 32,
+      "top": 461,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [
+     {
+      "text": "3DCreativeLab",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "Productos",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "WhatsApp",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "Del archivo",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "Imprimimos piezas con acabado profesional, disponi",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "Explorar catálogo",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "Tu pieza",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "Cuéntanos tu idea, te asesoramos y la fabricamos e",
+      "side": "left",
+      "px": 8
+     }
+    ],
+    "edges": [
+     {
+      "x": 8,
+      "n": 7
+     },
+     {
+      "x": 94,
+      "n": 1
+     },
+     {
+      "x": 165,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 9,
+    "bodySize": 16,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "eyebrow",
+   "width": 1440,
+   "message": "1 eyebrow/kicker label(s) above headings: \"WhatsApp\" above \"Del archivoal objeto\"",
+   "fix": "Delete them. If the label carried real information, fold it into the headline or the supporting sentence.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "default-link",
+   "width": 1440,
+   "message": "Browser-default blue/purple link colour is showing.",
+   "fix": "Style every link: inherit the text colour and mark it with weight, underline offset, or the accent.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "first-action",
+   "width": 1440,
+   "message": "No visible button in the first screen.",
+   "fix": "Give the one primary action a real button in the first screen (a filled or solid-bordered control, 44px or taller), not only a link in the navigation.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "few-pictures",
+   "width": 1440,
+   "message": "Only 2 picture(s) on the page (2 photographs, footage or raster images, 0 interface fragments). Drawings in SVG do not count.",
+   "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "measure",
+   "width": 1440,
+   "message": "Longest paragraph runs about 178 characters per line.",
+   "fix": "Cap paragraphs at 45–75 characters (max-width: 60ch).",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-hero",
+   "width": 1440,
+   "message": "No headline found in the first viewport.",
+   "fix": "The first screen needs a clear focal statement or image."
+  },
+  {
+   "level": "WARN",
+   "id": "font-not-dealt",
+   "width": 1440,
+   "message": "The sheet dealt Bricolage Grotesque and Bricolage Grotesque, but the page renders Times New Roman.",
+   "fix": "Load the dealt face (the link on the sheet) and put it first in font-family. A build that falls back to a default face lands on the default look."
+  },
+  {
+   "level": "FAIL",
+   "id": "off-centre",
+   "width": 1440,
+   "message": "The page sits off-centre: its content comes to 8px from the left edge but only to 792px from the right, at 1440px.",
+   "fix": "Give the page one pair of equal margins. Check the wrapper for a max-width without margin-inline: auto, a grid with an empty last column, or padding on one side only. If one side is meant to hold air, it must still be closed by something that reaches the margin (a picture, the navigation's last item, a figure).",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "lopsided",
+   "width": 1440,
+   "message": "2 sections keep all their content on one side and leave 70% of the width empty: \"Tu pieza\" (right 792px empty); \"De idea a pieza\" (right 1002px empty)",
+   "fix": "Use the whole width the page has set up: put the section's picture, its second column, its list or its figure in the empty half, or set the text larger across the grid. Empty space must be placed, with something on each side of it."
+  },
+  {
+   "level": "FAIL",
+   "id": "no-title",
+   "width": 1440,
+   "message": "The h1 (\"Del archivoal objeto\") is not on the first screen (it starts 1511px down).",
+   "fix": "The title belongs on the first screen, where a visitor decides whether to stay."
+  },
+  {
+   "level": "FAIL",
+   "id": "edge-text",
+   "width": 1440,
+   "message": "8 text block(s) sit within 16px of the screen edge: \"3DCreativeLab\" (8px from the left); \"Productos\" (8px from the left); \"WhatsApp\" (8px from the left); \"Del archivo\" (8px from the left)",
+   "fix": "Keep text inside the page margin (16–32px or more). Only display type deliberately bled past the edge may touch it.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Only 0 element(s) moved while the page loaded and scrolled.",
+   "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+  },
+  {
+   "level": "FAIL",
+   "id": "late-title",
+   "width": 768,
+   "message": "The title is not readable 1.2s after the page loaded (something lies over it).",
+   "fix": "Put the headline in the HTML, painted on the first frame; the load sequence only adds arrival and is settled by 1.2s (references/motion.md, \"Load sequence in 1.2 seconds\"). No preloader, no gate, no waiting for the load event.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "lopsided",
+   "width": 768,
+   "message": "A section keeps its content on one side and leaves 330px of the width empty: \"De idea a pieza\".",
+   "fix": "Fill the other side with what the section has (its picture, a second column, the figure), or defend the void in one sentence."
+  },
+  {
+   "level": "WARN",
+   "id": "name-only-title",
+   "width": 768,
+   "message": "The h1 is a bare name (\"Del archivoal objeto\") and nothing else on the first screen says what this is.",
+   "fix": "Keep the name if it leads, and give the line under it (18px or more) the plain words: what it is, for whom, where or when. In the study of 97 Sites of the Day, first screens that named nothing lost usability and content points.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "covered-text",
+   "width": 768,
+   "message": "Large text lies under another element at some scroll position: \"Del archivo\" (screen 1, 100% hidden); \"al objeto\" (screen 1, 100% hidden); \"Tu pieza\" (screen 1, 100% hidden); \"personalizada\" (screen 1, 100% hidden)",
+   "fix": "Nothing may sit on top of a headline or statement. Move the picture, shorten the pinned run, or raise the text above it (z-index) and give it a ground.",
+   "alsoAt": [
+    390
+   ]
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\demondcn\\Documents\\Codex\\2026-11-03\\files-pasted-by-the-user-proyecto-2\\.taste-skill\\final\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\demondcn\\Documents\\Codex\\2026-11-03\\files-pasted-by-the-user-proyecto-2\\.taste-skill\\final\\desktop-page-01.jpg",
+    "C:\\Users\\demondcn\\Documents\\Codex\\2026-11-03\\files-pasted-by-the-user-proyecto-2\\.taste-skill\\final\\desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\demondcn\\Documents\\Codex\\2026-11-03\\files-pasted-by-the-user-proyecto-2\\.taste-skill\\final\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\demondcn\\Documents\\Codex\\2026-11-03\\files-pasted-by-the-user-proyecto-2\\.taste-skill\\final\\tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\demondcn\\Documents\\Codex\\2026-11-03\\files-pasted-by-the-user-proyecto-2\\.taste-skill\\final\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\demondcn\\Documents\\Codex\\2026-11-03\\files-pasted-by-the-user-proyecto-2\\.taste-skill\\final\\mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

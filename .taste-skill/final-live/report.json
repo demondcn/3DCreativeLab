@@ -1,0 +1,2079 @@
+{
+ "url": "http://127.0.0.1:3001",
+ "at": "2026-11-04T03:21:36.465Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 4,
+   "filled": [
+    0.89,
+    0.61,
+    1,
+    1
+   ],
+   "motion": {
+    "elements": 21,
+    "css": 1,
+    "transitions": 20,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 2964,
+     "screens": 3.3,
+     "words": 124,
+     "img": 2,
+     "video": 0,
+     "canvas": 0,
+     "svg": 2,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 2,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fimages%2Finspection-line.png&w=1080",
+      "image?url=%2Fimages%2Fprinter-detail.png&w=640&q"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Del archivo al objeto",
+     "words": 4,
+     "chars": 21,
+     "lines": 2,
+     "size": 69.1,
+     "vw": 4.8,
+     "font": "Akshar",
+     "weight": 700,
+     "tracking": -0.04,
+     "leading": 0.83,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.21,
+     "top": 135,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Del archivo al objeto",
+     "words": 4,
+     "lines": 2,
+     "size": 69.1,
+     "font": "Akshar"
+    },
+    "headings": [
+     {
+      "text": "3DCreativeLab",
+      "words": 1,
+      "chars": 13,
+      "lines": 1,
+      "size": 32.4,
+      "vw": 2.3,
+      "font": "Akshar",
+      "weight": 700,
+      "tracking": -0.03,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.33,
+      "top": 12,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Del archivo al objeto",
+      "words": 4,
+      "chars": 21,
+      "lines": 2,
+      "size": 69.1,
+      "vw": 4.8,
+      "font": "Akshar",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 0.83,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.21,
+      "top": 135,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "TU PIEZA PERSONALIZADA",
+      "words": 3,
+      "chars": 22,
+      "lines": 2,
+      "size": 52.6,
+      "vw": 3.7,
+      "font": "Akshar",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 0.8,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.21,
+      "top": 745,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "PIEZAS EN INSPECCIÓN",
+      "words": 3,
+      "chars": 20,
+      "lines": 1,
+      "size": 100.8,
+      "vw": 7,
+      "font": "Akshar",
+      "weight": 400,
+      "tracking": -0.045,
+      "leading": 0.82,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 1030,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "DE IDEA A PIEZA",
+      "words": 4,
+      "chars": 15,
+      "lines": 1,
+      "size": 100.8,
+      "vw": 7,
+      "font": "Akshar",
+      "weight": 400,
+      "tracking": -0.045,
+      "leading": 0.82,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1434,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "REVISAMOS",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Akshar",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.19,
+      "top": 1670,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "PREPARAMOS",
+      "words": 1,
+      "chars": 10,
+      "lines": 1,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Akshar",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.19,
+      "top": 1670,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "IMPRIMIMOS",
+      "words": 1,
+      "chars": 10,
+      "lines": 1,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Akshar",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.19,
+      "top": 1670,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "INSPECCIONAMOS",
+      "words": 1,
+      "chars": 14,
+      "lines": 1,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Akshar",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.2,
+      "top": 1670,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "PIEZA POR EXISTIR.",
+      "words": 3,
+      "chars": 18,
+      "lines": 2,
+      "size": 129.6,
+      "vw": 9,
+      "font": "Akshar",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 0.78,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.55,
+      "top": 2168,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "3DCreativeLab",
+      "words": 1,
+      "chars": 13,
+      "lines": 1,
+      "size": 32,
+      "vw": 2.2,
+      "font": "Akshar",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.44,
+      "top": 2761,
+      "tag": "div",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 11,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 1,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Bricolage Grotesque",
+       "share": 0.72,
+       "mono": false
+      },
+      {
+       "family": "Akshar",
+       "share": 0.28,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      16,
+      17,
+      20,
+      21,
+      26,
+      32,
+      40,
+      53,
+      69,
+      101,
+      130
+     ],
+     "sizeCount": 12,
+     "notLoaded": [],
+     "body": {
+      "font": "Bricolage Grotesque",
+      "size": 20.8,
+      "leading": 1.4,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.5
+     },
+     "measureChars": 59,
+     "max": {
+      "size": 129.6,
+      "vw": 9,
+      "font": "Akshar",
+      "text": "Pieza por existir."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.14,
+     "centerShare": 0.17,
+     "smallText": 1
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f1f1f1",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 0.95
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f1f1f1",
+       "top": 72,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.95
+       }
+      },
+      {
+       "color": "#090909",
+       "top": 1305,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.04
+       }
+      },
+      {
+       "color": "#555555",
+       "top": 1994,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.33
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#ffffff",
+       "share": 0.75
+      },
+      {
+       "color": "#090909",
+       "share": 0.19
+      },
+      {
+       "color": "#aaaaaa",
+       "share": 0.06
+      }
+     ],
+     "button": {
+      "bg": "#444444",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 0.27
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 2,
+     "radius": 0,
+     "height": 46,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "WhatsApp",
+      "Explorar catálogo →"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 2,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.5
+     }
+    ],
+    "nav": {
+     "links": 5,
+     "fixed": false,
+     "height": 72,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "akshar",
+     "akshar fallback",
+     "bricolage grotesque",
+     "bricolage grotesque fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 2964,
+    "margins": {
+     "left": 42,
+     "right": 53
+    },
+    "sections": [
+     {
+      "sel": "section.first-viewport",
+      "tag": "section",
+      "top": 0,
+      "height": 900,
+      "words": 35,
+      "media": 2,
+      "middle": 33,
+      "heading": {
+       "text": "Del archivo",
+       "size": 69,
+       "tag": "h1"
+      },
+      "left": 42,
+      "right": 0,
+      "textLeft": 42,
+      "textRight": 53,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.content-section",
+      "tag": "section",
+      "top": 900,
+      "height": 405,
+      "words": 7,
+      "media": 0,
+      "middle": 345,
+      "heading": {
+       "text": "Piezas en inspección",
+       "size": 101,
+       "tag": "h2"
+      },
+      "left": 58,
+      "right": 58,
+      "textLeft": 58,
+      "textRight": 58,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#fabricacion.process-section",
+      "tag": "section",
+      "top": 1305,
+      "height": 689,
+      "words": 44,
+      "media": 0,
+      "middle": 121,
+      "heading": {
+       "text": "De idea a pieza",
+       "size": 101,
+       "tag": "h2"
+      },
+      "left": 58,
+      "right": 93,
+      "textLeft": 58,
+      "textRight": 93,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.custom-cta",
+      "tag": "section",
+      "top": 1994,
+      "height": 709,
+      "words": 22,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Pieza por existir.",
+       "size": 130,
+       "tag": "h2"
+      },
+      "left": 427,
+      "right": 427,
+      "textLeft": 427,
+      "textRight": 427,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer",
+      "tag": "footer",
+      "top": 2703,
+      "height": 261,
+      "words": 9,
+      "media": 0,
+      "middle": 402,
+      "heading": {
+       "text": "3DCreativeLab",
+       "size": 32,
+       "tag": "strong"
+      },
+      "left": 114,
+      "right": 253,
+      "textLeft": 114,
+      "textRight": 253,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 1792,
+      "height": 336
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Del archivo al objeto",
+      "size": 69,
+      "top": 135,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 42,
+      "n": 5
+     },
+     {
+      "x": 58,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 7,
+    "bodySize": 16,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.04,
+    "voidBox": {
+     "x": 360,
+     "y": 840,
+     "w": 780,
+     "h": 60
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 4,
+   "filled": [
+    0.79,
+    0.79,
+    1,
+    1
+   ],
+   "motion": {
+    "elements": 20,
+    "css": 1,
+    "transitions": 19,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 3322,
+     "screens": 3.2,
+     "words": 120,
+     "img": 2,
+     "video": 0,
+     "canvas": 0,
+     "svg": 2,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 2,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fimages%2Finspection-line.png&w=828&",
+      "image?url=%2Fimages%2Fprinter-detail.png&w=640&q"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Del archivo al objeto",
+     "words": 4,
+     "chars": 21,
+     "lines": 2,
+     "size": 96,
+     "vw": 12.5,
+     "font": "Akshar",
+     "weight": 700,
+     "tracking": -0.04,
+     "leading": 0.83,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.56,
+     "top": 108,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Del archivo al objeto",
+     "words": 4,
+     "lines": 2,
+     "size": 96,
+     "font": "Akshar"
+    },
+    "headings": [
+     {
+      "text": "Del archivo al objeto",
+      "words": 4,
+      "chars": 21,
+      "lines": 2,
+      "size": 96,
+      "vw": 12.5,
+      "font": "Akshar",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 0.83,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.56,
+      "top": 108,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "TU PIEZA PERSONALIZADA",
+      "words": 3,
+      "chars": 22,
+      "lines": 2,
+      "size": 67.2,
+      "vw": 8.8,
+      "font": "Akshar",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 0.8,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.51,
+      "top": 941,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "PIEZAS EN INSPECCIÓN",
+      "words": 3,
+      "chars": 20,
+      "lines": 1,
+      "size": 54.4,
+      "vw": 7.1,
+      "font": "Akshar",
+      "weight": 400,
+      "tracking": -0.045,
+      "leading": 0.82,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.63,
+      "top": 1519,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "DE IDEA A PIEZA",
+      "words": 4,
+      "chars": 15,
+      "lines": 1,
+      "size": 54.4,
+      "vw": 7.1,
+      "font": "Akshar",
+      "weight": 400,
+      "tracking": -0.045,
+      "leading": 0.82,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 1771,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "REVISAMOS",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Akshar",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.39,
+      "top": 1968,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "PREPARAMOS",
+      "words": 1,
+      "chars": 10,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Akshar",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.39,
+      "top": 1968,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "IMPRIMIMOS",
+      "words": 1,
+      "chars": 10,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Akshar",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.39,
+      "top": 2248,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "INSPECCIONAMOS",
+      "words": 1,
+      "chars": 14,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Akshar",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.39,
+      "top": 2248,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "PIEZA POR EXISTIR.",
+      "words": 3,
+      "chars": 18,
+      "lines": 2,
+      "size": 69.1,
+      "vw": 9,
+      "font": "Akshar",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 0.78,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.55,
+      "top": 2615,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "3DCreativeLab",
+      "words": 1,
+      "chars": 13,
+      "lines": 1,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Akshar",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3039,
+      "tag": "div",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 10,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 1,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Bricolage Grotesque",
+       "share": 0.71,
+       "mono": false
+      },
+      {
+       "family": "Akshar",
+       "share": 0.29,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      16,
+      17,
+      18,
+      21,
+      25,
+      32,
+      40,
+      54,
+      67,
+      69,
+      96
+     ],
+     "sizeCount": 12,
+     "notLoaded": [],
+     "body": {
+      "font": "Bricolage Grotesque",
+      "size": 20.8,
+      "leading": 1.4,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.5
+     },
+     "measureChars": 59,
+     "max": {
+      "size": 96,
+      "vw": 12.5,
+      "font": "Akshar",
+      "text": "Del archivo"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.14,
+     "centerShare": 0.17,
+     "smallText": 1
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f1f1f1",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 0.95
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f1f1f1",
+       "top": 72,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.95
+       }
+      },
+      {
+       "color": "#444444",
+       "top": 909,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.27
+       }
+      },
+      {
+       "color": "#090909",
+       "top": 1699,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.04
+       }
+      },
+      {
+       "color": "#555555",
+       "top": 2514,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.33
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#ffffff",
+       "share": 0.74
+      },
+      {
+       "color": "#090909",
+       "share": 0.2
+      },
+      {
+       "color": "#aaaaaa",
+       "share": 0.06
+      }
+     ],
+     "button": {
+      "bg": "#444444",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 0.27
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 2,
+     "radius": 0,
+     "height": 46,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "WhatsApp",
+      "Explorar catálogo →"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 2,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.39
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": false,
+     "height": 72,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "akshar",
+     "akshar fallback",
+     "bricolage grotesque",
+     "bricolage grotesque fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 3322,
+    "margins": {
+     "left": 18,
+     "right": 36
+    },
+    "sections": [
+     {
+      "sel": "section.first-viewport",
+      "tag": "section",
+      "top": 0,
+      "height": 1447,
+      "words": 31,
+      "media": 2,
+      "middle": 205,
+      "heading": {
+       "text": "Del archivo",
+       "size": 96,
+       "tag": "h1"
+      },
+      "left": 18,
+      "right": 36,
+      "textLeft": 18,
+      "textRight": 36,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.content-section",
+      "tag": "section",
+      "top": 1447,
+      "height": 252,
+      "words": 7,
+      "media": 0,
+      "middle": 88,
+      "heading": {
+       "text": "Piezas en inspección",
+       "size": 54,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 31,
+      "textLeft": 31,
+      "textRight": 31,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#fabricacion.process-section",
+      "tag": "section",
+      "top": 1699,
+      "height": 816,
+      "words": 44,
+      "media": 0,
+      "middle": 89,
+      "heading": {
+       "text": "De idea a pieza",
+       "size": 54,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 88,
+      "textLeft": 31,
+      "textRight": 88,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.custom-cta",
+      "tag": "section",
+      "top": 2514,
+      "height": 467,
+      "words": 22,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Pieza por existir.",
+       "size": 69,
+       "tag": "h2"
+      },
+      "left": 91,
+      "right": 91,
+      "textLeft": 91,
+      "textRight": 91,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer",
+      "tag": "footer",
+      "top": 2981,
+      "height": 341,
+      "words": 9,
+      "media": 0,
+      "middle": 80,
+      "heading": {
+       "text": "3DCreativeLab",
+       "size": 32,
+       "tag": "strong"
+      },
+      "left": 31,
+      "right": 248,
+      "textLeft": 31,
+      "textRight": 248,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Del archivo al objeto",
+      "size": 96,
+      "top": 108,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 18,
+      "n": 5
+     },
+     {
+      "x": 31,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 7,
+    "bodySize": 16,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    0.62,
+    0.72,
+    0.93,
+    1,
+    1
+   ],
+   "motion": {
+    "elements": 21,
+    "css": 1,
+    "transitions": 20,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 3998,
+     "screens": 4.7,
+     "words": 119,
+     "img": 2,
+     "video": 0,
+     "canvas": 0,
+     "svg": 2,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 2,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fimages%2Finspection-line.png&w=640&",
+      "image?url=%2Fimages%2Fprinter-detail.png&w=640&q"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Del archivo al objeto",
+     "words": 4,
+     "chars": 21,
+     "lines": 2,
+     "size": 70.2,
+     "vw": 18,
+     "font": "Akshar",
+     "weight": 700,
+     "tracking": -0.04,
+     "leading": 0.83,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.8,
+     "top": 104,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Del archivo al objeto",
+     "words": 4,
+     "lines": 2,
+     "size": 70.2,
+     "font": "Akshar"
+    },
+    "headings": [
+     {
+      "text": "Del archivo al objeto",
+      "words": 4,
+      "chars": 21,
+      "lines": 2,
+      "size": 70.2,
+      "vw": 18,
+      "font": "Akshar",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 0.83,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.8,
+      "top": 104,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "TU PIEZA PERSONALIZADA",
+      "words": 3,
+      "chars": 22,
+      "lines": 2,
+      "size": 50.7,
+      "vw": 13,
+      "font": "Akshar",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 0.8,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.76,
+      "top": 920,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "PIEZAS EN INSPECCIÓN",
+      "words": 3,
+      "chars": 20,
+      "lines": 2,
+      "size": 54.4,
+      "vw": 13.9,
+      "font": "Akshar",
+      "weight": 400,
+      "tracking": -0.045,
+      "leading": 0.82,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.91,
+      "top": 1455,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "DE IDEA A PIEZA",
+      "words": 4,
+      "chars": 15,
+      "lines": 1,
+      "size": 54.4,
+      "vw": 13.9,
+      "font": "Akshar",
+      "weight": 400,
+      "tracking": -0.045,
+      "leading": 0.82,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.91,
+      "top": 1799,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "REVISAMOS",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Akshar",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.78,
+      "top": 1997,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "PREPARAMOS",
+      "words": 1,
+      "chars": 10,
+      "lines": 1,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Akshar",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.78,
+      "top": 2277,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "IMPRIMIMOS",
+      "words": 1,
+      "chars": 10,
+      "lines": 1,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Akshar",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.78,
+      "top": 2557,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "INSPECCIONAMOS",
+      "words": 1,
+      "chars": 14,
+      "lines": 1,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Akshar",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.78,
+      "top": 2837,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "PIEZA POR EXISTIR.",
+      "words": 3,
+      "chars": 18,
+      "lines": 2,
+      "size": 57.6,
+      "vw": 14.8,
+      "font": "Akshar",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 0.78,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.84,
+      "top": 3199,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "3DCreativeLab",
+      "words": 1,
+      "chars": 13,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Akshar",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3659,
+      "tag": "div",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 10,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 1,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Bricolage Grotesque",
+       "share": 0.7,
+       "mono": false
+      },
+      {
+       "family": "Akshar",
+       "share": 0.3,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      16,
+      17,
+      18,
+      21,
+      32,
+      40,
+      51,
+      54,
+      58,
+      70
+     ],
+     "sizeCount": 11,
+     "notLoaded": [],
+     "body": {
+      "font": "Bricolage Grotesque",
+      "size": 20.8,
+      "leading": 1.4,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.5
+     },
+     "measureChars": 32,
+     "max": {
+      "size": 70.2,
+      "vw": 18,
+      "font": "Akshar",
+      "text": "Del archivo"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.14,
+     "centerShare": 0.18,
+     "smallText": 1
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f1f1f1",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 0.95
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f1f1f1",
+       "top": 68,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.95
+       }
+      },
+      {
+       "color": "#444444",
+       "top": 888,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.27
+       }
+      },
+      {
+       "color": "#090909",
+       "top": 1727,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.04
+       }
+      },
+      {
+       "color": "#555555",
+       "top": 3103,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.33
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#ffffff",
+       "share": 0.74
+      },
+      {
+       "color": "#090909",
+       "share": 0.2
+      },
+      {
+       "color": "#aaaaaa",
+       "share": 0.07
+      }
+     ],
+     "button": {
+      "bg": "#444444",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 0.27
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 1,
+     "radius": 0,
+     "height": 48,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Explorar catálogo →"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 2,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.31
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": false,
+     "height": 68,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "akshar",
+     "akshar fallback",
+     "bricolage grotesque",
+     "bricolage grotesque fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 3998,
+    "margins": {
+     "left": 16,
+     "right": 60
+    },
+    "sections": [
+     {
+      "sel": "div.hero-stage",
+      "tag": "div",
+      "top": 68,
+      "height": 820,
+      "words": 16,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Del archivo",
+       "size": 70,
+       "tag": "h1"
+      },
+      "left": 18,
+      "right": 60,
+      "textLeft": 18,
+      "textRight": 60,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.custom-strip",
+      "tag": "div",
+      "top": 888,
+      "height": 495,
+      "words": 13,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Tu pieza",
+       "size": 51,
+       "tag": "h2"
+      },
+      "left": 18,
+      "right": 77,
+      "textLeft": 18,
+      "textRight": 77,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.content-section",
+      "tag": "section",
+      "top": 1383,
+      "height": 344,
+      "words": 7,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Piezas en inspección",
+       "size": 54,
+       "tag": "h2"
+      },
+      "left": 18,
+      "right": 146,
+      "textLeft": 18,
+      "textRight": 146,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#fabricacion.process-section",
+      "tag": "section",
+      "top": 1727,
+      "height": 1376,
+      "words": 44,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "De idea a pieza",
+       "size": 54,
+       "tag": "h2"
+      },
+      "left": 18,
+      "right": 74,
+      "textLeft": 18,
+      "textRight": 74,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.custom-cta",
+      "tag": "section",
+      "top": 3103,
+      "height": 498,
+      "words": 22,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Pieza por existir.",
+       "size": 58,
+       "tag": "h2"
+      },
+      "left": 35,
+      "right": 35,
+      "textLeft": 35,
+      "textRight": 35,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer",
+      "tag": "footer",
+      "top": 3601,
+      "height": 397,
+      "words": 9,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "3DCreativeLab",
+       "size": 32,
+       "tag": "strong"
+      },
+      "left": 16,
+      "right": 85,
+      "textLeft": 16,
+      "textRight": 85,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Del archivo al objeto",
+      "size": 70,
+      "top": 104,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [
+     {
+      "text": "Impresión 3D profesional en Colombia.",
+      "side": "left",
+      "px": 16
+     },
+     {
+      "text": "Catálogo",
+      "side": "left",
+      "px": 16
+     },
+     {
+      "text": "Personalizados",
+      "side": "left",
+      "px": 16
+     },
+     {
+      "text": "Administración",
+      "side": "left",
+      "px": 16
+     }
+    ],
+    "edges": [
+     {
+      "x": 18,
+      "n": 7
+     }
+    ],
+    "leftBlocks": 7,
+    "bodySize": 16,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "12 different font sizes (13, 16, 17, 20, 21, 26, 32, 40, 53, 69, 101, 130).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "few-pictures",
+   "width": 1440,
+   "message": "Only 2 picture(s) on the page (2 photographs, footage or raster images, 0 interface fragments). Drawings in SVG do not count.",
+   "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "small-text",
+   "width": 1440,
+   "message": "1 text block(s) under 13px.",
+   "fix": "Nothing meant to be read goes below 13px.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "off-centre",
+   "width": 768,
+   "message": "The margins differ: 18px on the left, 36px on the right, at 768px.",
+   "fix": "Put the navigation and the content on one pair of margins; check for padding on one side only, a scrollbar gutter, or a header on another inset than the page."
+  },
+  {
+   "level": "FAIL",
+   "id": "off-centre",
+   "width": 390,
+   "message": "The page sits off-centre: its content comes to 16px from the left edge but only to 60px from the right, at 390px.",
+   "fix": "Give the page one pair of equal margins. Check the wrapper for a max-width without margin-inline: auto, a grid with an empty last column, or padding on one side only. If one side is meant to hold air, it must still be closed by something that reaches the margin (a picture, the navigation's last item, a figure)."
+  },
+  {
+   "level": "WARN",
+   "id": "edge-text",
+   "width": 390,
+   "message": "4 text block(s) sit 12–15px from the phone's edge: \"Impresión 3D profesional en Co\" (16px); \"Catálogo\" (16px); \"Personalizados\" (16px)",
+   "fix": "The page margin is 16–20px on a phone; the header and the corner labels sit on it too."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\demondcn\\Documents\\Codex\\2026-11-03\\files-pasted-by-the-user-proyecto-2\\.taste-skill\\final-live\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\demondcn\\Documents\\Codex\\2026-11-03\\files-pasted-by-the-user-proyecto-2\\.taste-skill\\final-live\\desktop-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\demondcn\\Documents\\Codex\\2026-11-03\\files-pasted-by-the-user-proyecto-2\\.taste-skill\\final-live\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\demondcn\\Documents\\Codex\\2026-11-03\\files-pasted-by-the-user-proyecto-2\\.taste-skill\\final-live\\tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\demondcn\\Documents\\Codex\\2026-11-03\\files-pasted-by-the-user-proyecto-2\\.taste-skill\\final-live\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\demondcn\\Documents\\Codex\\2026-11-03\\files-pasted-by-the-user-proyecto-2\\.taste-skill\\final-live\\mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

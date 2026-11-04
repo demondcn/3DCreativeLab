@@ -1,0 +1,280 @@
+{
+  "tool": "build-phase",
+  "version": 2,
+  "startedAt": "2026-11-03T15:22:36.055Z",
+  "comp": ".impeccable/mocks/production-catalog.png",
+  "direction": "seed:e68add27ba7ceb19",
+  "breakpoint": "1586x992",
+  "artifact": "app\\page.tsx",
+  "phase": "plates",
+  "phases": {
+    "comps": {
+      "status": "closed",
+      "openedAt": "2026-11-03T15:22:36.055Z",
+      "closedAt": "2026-11-03T15:41:25.538Z",
+      "attempts": 1,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "3 comps, 1 approved",
+        "approved": ".impeccable/mocks/production-catalog.png",
+        "at": "2026-11-03T15:41:25.538Z"
+      },
+      "forced": null
+    },
+    "spec": {
+      "status": "closed",
+      "openedAt": "2026-11-03T15:41:25.552Z",
+      "closedAt": "2026-11-03T15:44:08.320Z",
+      "attempts": 2,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "17 regions, 2 plates, 11 text regions measured",
+        "at": "2026-11-03T15:44:08.320Z"
+      },
+      "forced": null
+    },
+    "plates": {
+      "status": "open",
+      "openedAt": "2026-11-03T15:44:08.320Z",
+      "closedAt": null,
+      "attempts": 1,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "2/2 plates",
+        "at": "2026-11-03T15:46:26.576Z"
+      },
+      "forced": null
+    },
+    "hero": {
+      "status": "pending",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    },
+    "sections": {
+      "status": "pending",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    },
+    "motion": {
+      "status": "pending",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    },
+    "responsive": {
+      "status": "pending",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    },
+    "review": {
+      "status": "pending",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    }
+  },
+  "finish": null,
+  "decisionComp": ".impeccable\\mocks\\decision\\model-pick-red.png",
+  "sessionId": "01a1a1f3-c2a9-74d0-bc10-45444f450277",
+  "plates": {
+    "inspection-line": {
+      "id": "inspection-line",
+      "file": "assets/plates/inspection-line.png",
+      "status": "ok",
+      "assetHash": "d5677b15a10c54e7cd2ccff7ed72ef7cad3a800ca53d7bf562aba42aa139b80f",
+      "regionHash": "ef2b77421504386f1ba715450115418f5441abb0c4816698ef5e64f52b002b0a",
+      "referenceHash": "20120cc4f222f77cd70030f605689de0bdfee7a80c71f43e802eda5f42d008be",
+      "reference": {
+        "policy": "plate-reference-v2",
+        "excludedPixels": 385506,
+        "totalPixels": 772065,
+        "remainingPixels": 386559,
+        "excludedFraction": 0.49931806259835637,
+        "fullyExcluded": false,
+        "regions": [
+          {
+            "id": "masthead",
+            "kind": "chrome",
+            "cropPx": {
+              "x": 0,
+              "y": 0,
+              "w": 1161,
+              "h": 21
+            },
+            "pixels": 24381
+          },
+          {
+            "id": "brand",
+            "kind": "text",
+            "cropPx": {
+              "x": 0,
+              "y": 0,
+              "w": 51,
+              "h": 21
+            },
+            "pixels": 1071
+          },
+          {
+            "id": "nav-products",
+            "kind": "text",
+            "cropPx": {
+              "x": 209,
+              "y": 0,
+              "w": 317,
+              "h": 21
+            },
+            "pixels": 6657
+          },
+          {
+            "id": "nav-custom",
+            "kind": "text",
+            "cropPx": {
+              "x": 368,
+              "y": 0,
+              "w": 317,
+              "h": 21
+            },
+            "pixels": 6657
+          },
+          {
+            "id": "nav-process",
+            "kind": "text",
+            "cropPx": {
+              "x": 527,
+              "y": 0,
+              "w": 476,
+              "h": 21
+            },
+            "pixels": 9996
+          },
+          {
+            "id": "whatsapp",
+            "kind": "control",
+            "cropPx": {
+              "x": 844,
+              "y": 0,
+              "w": 317,
+              "h": 21
+            },
+            "pixels": 6657
+          },
+          {
+            "id": "hero-headline",
+            "kind": "text",
+            "cropPx": {
+              "x": 0,
+              "y": 21,
+              "w": 51,
+              "h": 298
+            },
+            "pixels": 15198
+          },
+          {
+            "id": "hero-support",
+            "kind": "text",
+            "cropPx": {
+              "x": 0,
+              "y": 319,
+              "w": 51,
+              "h": 198
+            },
+            "pixels": 10098
+          },
+          {
+            "id": "hero-action",
+            "kind": "control",
+            "cropPx": {
+              "x": 0,
+              "y": 517,
+              "w": 51,
+              "h": 99
+            },
+            "pixels": 5049
+          },
+          {
+            "id": "product-one-data",
+            "kind": "text",
+            "cropPx": {
+              "x": 51,
+              "y": 21,
+              "w": 476,
+              "h": 298
+            },
+            "pixels": 141848
+          },
+          {
+            "id": "product-two-data",
+            "kind": "text",
+            "cropPx": {
+              "x": 368,
+              "y": 21,
+              "w": 476,
+              "h": 298
+            },
+            "pixels": 141848
+          },
+          {
+            "id": "product-three-data",
+            "kind": "text",
+            "cropPx": {
+              "x": 685,
+              "y": 21,
+              "w": 476,
+              "h": 298
+            },
+            "pixels": 141848
+          }
+        ],
+        "ignoredContainers": []
+      },
+      "compHash": "1746fe9a7f6ccf0ef0f55020d66e80ac0957fb409a5ba4439b2f8331d5204755",
+      "size": "1920x1100",
+      "score": 0.8277
+    },
+    "printer-detail": {
+      "id": "printer-detail",
+      "file": "assets/plates/printer-detail.png",
+      "status": "ok",
+      "assetHash": "458f0062ca3c2104ca1a33b8e0121672c53e4f8175a8d74601af35544dbcd0b4",
+      "regionHash": "fed249c48ada091191bf445eee5ecc5be0b1ef3299800b099a8ebb419b2a0fac",
+      "referenceHash": "20120cc4f222f77cd70030f605689de0bdfee7a80c71f43e802eda5f42d008be",
+      "reference": {
+        "policy": "plate-reference-v2",
+        "excludedPixels": 0,
+        "totalPixels": 62766,
+        "remainingPixels": 62766,
+        "excludedFraction": 0.0,
+        "fullyExcluded": false,
+        "regions": [],
+        "ignoredContainers": []
+      },
+      "compHash": "1746fe9a7f6ccf0ef0f55020d66e80ac0957fb409a5ba4439b2f8331d5204755",
+      "size": "1586x992",
+      "score": 0.7561
+    }
+  }
+}
