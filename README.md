@@ -57,6 +57,21 @@ La autorización se repite en cada Server Action. Tener una cuenta válida no co
 
 Si la cuenta ya existe pero no conoces la contraseña, abre `/admin/forgot-password`. El correo siempre muestra una respuesta neutral para no revelar si una cuenta existe; el enlace de Neon abre `/admin/reset-password`, vence después de 15 minutos y permite establecer una contraseña nueva sin modificar tablas ni hashes manualmente.
 
+## Cuentas de clientes
+
+Las rutas públicas de autenticación reutilizan la misma instancia de Neon Managed Better Auth:
+
+- `/iniciar-sesion`: acceso de clientes y administrador. El destino final se decide con la sesión validada en el servidor.
+- `/registrarse`: crea únicamente usuarios normales mediante `signUp.email`; el formulario no recibe ni transmite roles.
+- `/recuperar-contrasena` y `/restablecer-contrasena`: recuperación neutral con `requestPasswordReset` y `resetPassword`.
+- `/cuenta`: nombre, correo, estado de verificación, catálogo y cierre de sesión. No muestra pedidos inexistentes.
+
+En **Neon → Auth → Configuration** mantén Email/Password y el proveedor de correo activos, habilita la verificación de correo al registrarse y agrega los orígenes autorizados. `NEXT_PUBLIC_SITE_URL` es la única base utilizada para callbacks: en local puede ser `http://127.0.0.1:3001`; en Vercel Production debe ser exactamente `https://3dcreativelab.vercel.app`. La aplicación rechaza en producción cualquier otro host, protocolo, ruta o credencial embebida.
+
+La cuenta administrativa existente puede reenviar su verificación desde el formulario de acceso cuando Neon la marque como pendiente, o desde `/cuenta` después de iniciar sesión. El enlace se envía a esa misma dirección; verificarla no crea otra cuenta ni cambia permisos. Un correo que coincida con `ADMIN_EMAIL` solo recibe acceso administrativo cuando la sesión real de esa cuenta ha sido validada en el servidor.
+
+Neon/Better Auth aplica el límite de solicitudes del servicio a registro, acceso, verificación y recuperación. La interfaz además bloquea envíos simultáneos y maneja respuestas `429` sin revelar la existencia de cuentas.
+
 ## Fotografías con Vercel Blob
 
 Vercel Blob mantiene los archivos fuera de PostgreSQL y entrega URLs públicas optimizadas por CDN.
@@ -75,6 +90,7 @@ Una nueva selección reemplaza las fotografías anteriores. Los archivos antiguo
 - WhatsApp con cantidad, precio unitario, total estimado y solicitud explícita de confirmación.
 - Solicitudes personalizadas con nombre, contacto, descripción, cantidad, ciudad y referencias.
 - Panel protegido: CRUD, fotografías, visibilidad, destacados e inventario.
+- Registro, verificación, inicio de sesión, recuperación de contraseña y cuenta de cliente sobre Neon Auth.
 - Dashboard calculado desde Neon: total, visibles, agotados, pocas unidades y valor de inventario.
 - Estados vacíos y errores de conexión sin datos ficticios en producción.
 

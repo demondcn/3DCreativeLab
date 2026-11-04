@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { passwordValidationError } from "../lib/auth/password";
+import { passwordValidationError, registrationValidationError } from "../lib/auth/password";
 
 describe("passwordValidationError", () => {
   it("acepta una contraseña larga con letras y números", () => {
@@ -16,5 +16,16 @@ describe("passwordValidationError", () => {
 
   it("rechaza confirmaciones distintas", () => {
     expect(passwordValidationError("TallerSeguro2026", "TallerSeguro2027")).toMatch(/no coinciden/);
+  });
+});
+
+describe("registrationValidationError", () => {
+  it("acepta los campos válidos sin recibir roles", () => {
+    expect(registrationValidationError("Ana Gómez", "ana@example.com", "TallerSeguro2026", "TallerSeguro2026")).toBe("");
+  });
+
+  it("rechaza nombres y correos inválidos", () => {
+    expect(registrationValidationError("A", "correo-invalido", "TallerSeguro2026", "TallerSeguro2026")).toMatch(/nombre/);
+    expect(registrationValidationError("Ana", "correo-invalido", "TallerSeguro2026", "TallerSeguro2026")).toMatch(/correo/);
   });
 });

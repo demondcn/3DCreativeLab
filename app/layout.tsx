@@ -11,6 +11,8 @@ export const metadata: Metadata = {
   description: "Objetos impresos en 3D y fabricación personalizada en Colombia.",
 };
 
+export const dynamic = "force-dynamic";
+
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="es-CO">

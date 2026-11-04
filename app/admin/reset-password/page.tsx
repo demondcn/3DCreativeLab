@@ -3,5 +3,5 @@ import { SiteHeader } from "@/components/site-header";
 
 export default async function ResetPasswordPage({ searchParams }: { searchParams: Promise<{ token?: string; error?: string }> }) {
   const { token, error } = await searchParams;
-  return <><SiteHeader /><main className="admin-login"><div><h1>Nueva contraseña</h1><p>El enlace solo puede usarse una vez y vence después de 15 minutos.</p></div><ResetPasswordForm token={token} invalid={Boolean(error)} /></main></>;
+  return <><SiteHeader /><main className="admin-login"><div><h1>Nueva contraseña</h1><p>El enlace solo puede usarse una vez y vence después de 15 minutos.</p></div><ResetPasswordForm token={token} invalid={Boolean(error)} loginHref="/admin/login" recoveryHref="/admin/forgot-password" /></main></>;
 }
