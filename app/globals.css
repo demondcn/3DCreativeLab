@@ -188,6 +188,9 @@ textarea { resize: vertical; }
 .admin-login .login-form { align-self: center; }
 .auth-link { justify-self: start; font-weight: 700; }
 .login-form .field-help { margin: -.25rem 0 .25rem; }
+.otp-input { text-align: center; font-variant-numeric: tabular-nums; font-size: 1.4rem; font-weight: 700; letter-spacing: .55em; }
+.verification-email { overflow-wrap: anywhere; }
+.verification-links { display: flex; flex-wrap: wrap; gap: 1rem; }
 .auth-status { max-width: 42rem; margin-top: 1.5rem; padding: .85rem; color: var(--ink); background: white; border: 2px solid var(--ink); font-weight: 700; }
 .account-page { min-height: 75vh; padding: clamp(2rem, 5vw, 5rem) clamp(1.1rem, 6vw, 7rem); }
 .account-page > header { max-width: 760px; margin-bottom: 2rem; }

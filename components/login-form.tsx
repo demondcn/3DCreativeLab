@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState, type FormEvent } from "react";
 import { authClient } from "@/lib/auth/client";
+import { EmailVerificationForm } from "@/components/email-verification-form";
 
 type AuthFailure = {
   status?: number;
@@ -16,13 +17,11 @@ export function LoginForm({ forgotHref, successHref, verificationCallbackUrl }: 
   const [error, setError] = useState("");
   const [pending, setPending] = useState(false);
   const [verificationEmail, setVerificationEmail] = useState("");
-  const [verificationSent, setVerificationSent] = useState(false);
 
   async function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     setError("");
     setVerificationEmail("");
-    setVerificationSent(false);
     setPending(true);
     const form = new FormData(event.currentTarget);
     const email = String(form.get("email") || "").trim();
@@ -50,21 +49,6 @@ export function LoginForm({ forgotHref, successHref, verificationCallbackUrl }: 
     }
   }
 
-  async function resendVerification() {
-    setPending(true);
-    setError("");
-    try {
-      const result = await authClient.sendVerificationEmail({ email: verificationEmail, callbackURL: verificationCallbackUrl });
-      if (result.error) throw result.error;
-      setVerificationSent(true);
-    } catch (caught) {
-      const failure = caught as AuthFailure;
-      const status = failure.error?.status ?? failure.status;
-      setError(status === 429 ? "Hay demasiadas solicitudes. Espera unos minutos y vuelve a intentarlo." : "No fue posible enviar la verificación. Intenta nuevamente.");
-    } finally {
-      setPending(false);
-    }
-  }
-
-  return <form className="admin-form login-form" onSubmit={submit}><label>Correo electrónico<input name="email" type="email" autoComplete="email" maxLength={254} required /></label><label>Contraseña<input name="password" type="password" autoComplete="current-password" minLength={8} maxLength={128} required /></label>{error && <p className="form-error" role="alert">{error}</p>}{verificationEmail && !verificationSent && <button className="text-button auth-link" type="button" onClick={resendVerification} disabled={pending}>Reenviar verificación</button>}{verificationSent && <p className="form-success" role="status">Si la cuenta puede verificarse, recibirás un correo con el enlace seguro.</p>}<button className="button-light" disabled={pending}>{pending ? "Verificando…" : "Iniciar sesión"}</button><Link className="auth-link" href={forgotHref}>¿Olvidaste tu contraseña?</Link></form>;
+  if (verificationEmail) return <EmailVerificationForm email={verificationEmail} callbackUrl={verificationCallbackUrl} successHref={successHref} onCancel={() => setVerificationEmail("")} />;
+  return <form className="admin-form login-form" onSubmit={submit}><label>Correo electrónico<input name="email" type="email" autoComplete="email" maxLength={254} required /></label><label>Contraseña<input name="password" type="password" autoComplete="current-password" minLength={8} maxLength={128} required /></label>{error && <p className="form-error" role="alert">{error}</p>}<button className="button-light" disabled={pending}>{pending ? "Verificando…" : "Iniciar sesión"}</button><Link className="auth-link" href={forgotHref}>¿Olvidaste tu contraseña?</Link></form>;
 }

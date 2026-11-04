@@ -38,7 +38,7 @@ La experiencia debe presentar la impresion 3D como fabricacion profesional, no c
 - Detalle por slug con SEO basico, cantidad y mensaje de WhatsApp codificado.
 - Formulario de pedidos personalizados que genera un mensaje de WhatsApp; no simula un envio ni confirmacion.
 - Panel privado con dashboard e inventario CRUD, Managed Better Auth y autorizacion del lado servidor limitada a `ADMIN_EMAIL`.
-- Registro, verificacion de correo, inicio de sesion, recuperacion de contrasena y area de cuenta para clientes mediante Managed Better Auth.
+- Registro, verificacion de correo mediante codigo OTP, inicio de sesion, recuperacion de contrasena y area de cuenta para clientes mediante Managed Better Auth.
 - Recuperacion de acceso mediante correo y token temporal de Neon Auth, sin revelar si una cuenta existe.
 - No hay registro publico de administradores, historial ficticio de pedidos, pasarela de pago, carrito complejo ni WhatsApp Business API en esta version.
 - No se deben inventar testimonios, descuentos, estadisticas, disponibilidad ni fechas exactas.
