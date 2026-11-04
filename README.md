@@ -55,6 +55,8 @@ No ejecutes `neon/seed.sql` en producción salvo que hayas revisado expresamente
 
 La autorización se repite en cada Server Action. Tener una cuenta válida no concede administración si el correo no coincide con `ADMIN_EMAIL`.
 
+Si la cuenta ya existe pero no conoces la contraseña, abre `/admin/forgot-password`. El correo siempre muestra una respuesta neutral para no revelar si una cuenta existe; el enlace de Neon abre `/admin/reset-password`, vence después de 15 minutos y permite establecer una contraseña nueva sin modificar tablas ni hashes manualmente.
+
 ## Fotografías con Vercel Blob
 
 Vercel Blob mantiene los archivos fuera de PostgreSQL y entrega URLs públicas optimizadas por CDN.

@@ -38,6 +38,7 @@ La experiencia debe presentar la impresion 3D como fabricacion profesional, no c
 - Detalle por slug con SEO basico, cantidad y mensaje de WhatsApp codificado.
 - Formulario de pedidos personalizados que genera un mensaje de WhatsApp; no simula un envio ni confirmacion.
 - Panel privado con dashboard e inventario CRUD, Managed Better Auth y autorizacion del lado servidor limitada a `ADMIN_EMAIL`.
+- Recuperacion de acceso administrativo mediante correo y token temporal de Neon Auth, sin revelar si una cuenta existe.
 - No hay registro publico de administradores, pasarela de pago, carrito complejo ni WhatsApp Business API en esta version.
 - No se deben inventar testimonios, descuentos, estadisticas, disponibilidad ni fechas exactas.
 - Neon PostgreSQL y Managed Better Auth estan conectados. Vercel Blob requiere su token privado antes de probar cargas reales.

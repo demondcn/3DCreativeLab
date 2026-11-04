@@ -125,7 +125,7 @@ textarea { resize: vertical; }
 .order-box { display: grid; gap: 1rem; padding: 1.2rem; color: white; background: #4a4a4a; }
 .order-box input { max-width: 120px; }
 .order-box .button-dark { background: var(--ink); border-color: white; }
-.stock-warning, .form-error { border-left: 4px solid currentColor; padding-left: .8rem; font-weight: 700; }
+.stock-warning, .form-error, .form-success { border: 2px solid currentColor; padding: .8rem; font-weight: 700; }
 
 .custom-page, .admin-login { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(2rem, 7vw, 8rem); min-height: 75vh; padding: clamp(3rem, 7vw, 8rem) clamp(1.1rem, 6vw, 7rem); color: white; background: #454545; }
 .custom-page section > p, .admin-login > div > p { max-width: 48ch; font-size: 1.2rem; line-height: 1.5; }
@@ -178,6 +178,10 @@ textarea { resize: vertical; }
 .check-row label { flex-direction: row; align-items: center; }
 .check-row input { width: 22px; min-height: 22px; }
 .admin-login .login-form { align-self: center; }
+.auth-link { justify-self: start; font-weight: 700; }
+.login-form .field-help { margin: -.25rem 0 .25rem; }
+.button-dark:active, .button-light:active { transform: scale(.97); }
+button:disabled { cursor: wait; opacity: .65; }
 
 @media (hover: hover) and (pointer: fine) {
   .nav-links a:hover { opacity: .72; }

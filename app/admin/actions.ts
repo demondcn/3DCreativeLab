@@ -2,7 +2,7 @@
 
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
-import { auth, getAdminSession } from "@/lib/auth/server";
+import { getAdminSession } from "@/lib/auth/server";
 import { db } from "@/lib/neon";
 import { productInputFromForm } from "@/lib/product-schema";
 import { deleteProductImages, ImageUploadError, productImageFiles, uploadProductImages } from "@/lib/product-images";
@@ -19,11 +19,6 @@ function refreshStore(slug?: string) {
   revalidatePath("/admin");
   revalidatePath("/admin/productos");
   if (slug) revalidatePath(`/productos/${slug}`);
-}
-
-export async function logout() {
-  await auth?.signOut();
-  redirect("/");
 }
 
 export async function createProduct(_previous: ProductActionState, formData: FormData): Promise<ProductActionState> {
