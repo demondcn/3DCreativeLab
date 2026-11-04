@@ -1,11 +1,13 @@
 import { z } from "zod";
+import { normalizeProductTags } from "./product-tags";
 
 export const productSchema = z.object({
   name: z.string().trim().min(3, "Escribe un nombre de al menos 3 caracteres.").max(100),
-  slug: z.string().trim().min(3).max(120).regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/, "Usa letras minúsculas, números y guiones."),
+  slug: z.string().trim().min(3, "El slug debe tener al menos 3 caracteres.").max(120, "El slug no puede superar 120 caracteres.").regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/, "El slug solo puede usar letras minúsculas, números y guiones simples."),
   description: z.string().trim().min(10, "Describe el producto en al menos 10 caracteres.").max(1000),
   category: z.string().trim().min(2).max(60),
   product_type: z.string().trim().min(2, "Escribe el tipo de producto.").max(60),
+  tags: z.array(z.string().trim().min(2, "Cada etiqueta debe tener al menos 2 caracteres.").max(40, "Cada etiqueta puede tener máximo 40 caracteres.")).max(12, "Puedes seleccionar máximo 12 etiquetas.").default([]),
   price: z.coerce.number().int().min(0, "El precio no puede ser negativo."),
   stock: z.coerce.number().int().min(0, "El inventario no puede ser negativo."),
   production_hours: z.coerce.number().int().min(1).max(720),
@@ -28,6 +30,7 @@ export function productInputFromForm(formData: FormData) {
     description: formData.get("description"),
     category: formData.get("category"),
     product_type: formData.get("product_type"),
+    tags: normalizeProductTags(formData.getAll("tags").map(String)),
     price: formData.get("price"),
     stock: formData.get("stock"),
     production_hours: formData.get("production_hours"),

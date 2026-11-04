@@ -27,6 +27,7 @@ export default async function ProductDetail({ params }: { params: Promise<{ slug
           <Link href="/productos" className="back-link">← Volver al catálogo</Link>
           <h1>{product.name}</h1>
           <p className="product-context">{product.category} · {product.product_type} · {productStatus(product)}</p>
+          {product.tags.length > 0 && <ul className="tag-list detail-tags" aria-label="Etiquetas">{product.tags.map((tag) => <li key={tag}>{tag}</li>)}</ul>}
           <p className="detail-price">{formatCOP(product.price)}</p>
           <p>{product.description}</p>
           <dl className="inspection-list">

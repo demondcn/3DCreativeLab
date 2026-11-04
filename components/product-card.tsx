@@ -13,6 +13,7 @@ export function ProductCard({ product, priority = false }: { product: Product; p
       <div className="catalog-card-body">
         <h2><Link href={`/productos/${product.slug}`}>{product.name}</Link></h2>
         <div className="product-tags"><span>{product.category} · {product.product_type}</span>{product.demo && <span className="demo-label">Demostración</span>}</div>
+        {product.tags.length > 0 && <ul className="tag-list" aria-label="Etiquetas">{product.tags.slice(0, 3).map((tag) => <li key={tag}>{tag}</li>)}</ul>}
         <div className="product-meta"><strong>{formatCOP(product.price)}</strong><span>{productStatus(product)}</span></div>
       </div>
     </article>

@@ -7,14 +7,22 @@ let id;
 
 try {
   const inserted = await pool.query(`INSERT INTO products
-    (name, slug, description, category, product_type, price, stock, production_hours, shipping_days, status, image_url, image_urls, makerworld_url, featured, active)
-    VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15)
-    RETURNING id::text, slug, active`, [
+    (name, slug, description, category, product_type, tags, price, stock, production_hours, shipping_days, status, image_url, image_urls, makerworld_url, featured, active)
+    VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16)
+    RETURNING id::text, slug, active, tags`, [
       "Producto de prueba temporal", slug, "Registro temporal para verificar el CRUD real de Neon.", "Pruebas", "Temporal",
-      12345, 3, 2, 4, "disponible", "", [], "", false, false,
+      ["Geek", "Regalos"], 12345, 3, 2, 4, "disponible", "", [], "", false, false,
     ]);
   id = inserted.rows[0].id;
   const created = inserted.rows[0].slug === slug && inserted.rows[0].active === false;
+  const tagsPersisted = inserted.rows[0].tags?.join(",") === "Geek,Regalos";
+
+  let duplicateSlugRejected = false;
+  try {
+    await pool.query("INSERT INTO products (name, slug, description, category, product_type, price, stock, production_hours, shipping_days) VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9)", ["Duplicado temporal", slug, "Registro que debe fallar por slug duplicado.", "Pruebas", "Temporal", 1, 0, 1, 1]);
+  } catch (error) {
+    duplicateSlugRejected = error?.code === "23505";
+  }
 
   await pool.query("UPDATE products SET name=$1, price=$2, stock=$3, active=true WHERE id=$4::uuid", ["Producto temporal editado", 23456, 5, id]);
   const updatedRow = (await pool.query("SELECT name, price, stock, active FROM products WHERE id=$1::uuid", [id])).rows[0];
@@ -34,8 +42,8 @@ try {
     negativeRejected = error?.code === "23514";
   }
 
-  console.log(JSON.stringify({ created, updated, hidden, deleted, negativeRejected }));
-  if (![created, updated, hidden, deleted, negativeRejected].every(Boolean)) process.exitCode = 1;
+  console.log(JSON.stringify({ created, tagsPersisted, duplicateSlugRejected, updated, hidden, deleted, negativeRejected }));
+  if (![created, tagsPersisted, duplicateSlugRejected, updated, hidden, deleted, negativeRejected].every(Boolean)) process.exitCode = 1;
 } finally {
   if (id) await pool.query("DELETE FROM products WHERE id=$1::uuid", [id]);
   await pool.end();

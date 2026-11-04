@@ -34,10 +34,10 @@ La experiencia debe presentar la impresion 3D como fabricacion profesional, no c
 
 ## Capacidades y restricciones
 
-- Catalogo dinamico con busqueda, filtros, ordenamiento, disponibilidad y estados de carga, vacio y error.
-- Detalle por slug con SEO basico, cantidad y mensaje de WhatsApp codificado.
+- Catalogo dinamico con busqueda, filtros por categoria, tipo, etiquetas y precio, ordenamiento, disponibilidad y estados de carga, vacio y error.
+- Detalle por slug estable con SEO basico, etiquetas, cantidad y mensaje de WhatsApp codificado.
 - Formulario de pedidos personalizados que genera un mensaje de WhatsApp; no simula un envio ni confirmacion.
-- Panel privado con dashboard e inventario CRUD, Managed Better Auth y autorizacion del lado servidor limitada a `ADMIN_EMAIL`.
+- Panel privado con dashboard e inventario CRUD, slug automatico editable, etiquetas multiples, Managed Better Auth y autorizacion del lado servidor limitada a `ADMIN_EMAIL`.
 - Registro, verificacion de correo mediante codigo OTP, inicio de sesion, recuperacion de contrasena y area de cuenta para clientes mediante Managed Better Auth.
 - Recuperacion de acceso mediante correo y token temporal de Neon Auth, sin revelar si una cuenta existe.
 - No hay registro publico de administradores, historial ficticio de pedidos, pasarela de pago, carrito complejo ni WhatsApp Business API en esta version.
@@ -47,7 +47,7 @@ La experiencia debe presentar la impresion 3D como fabricacion profesional, no c
 ## Compromisos de marca
 
 - Nombre oficial confirmado: 3DCreativeLab.
-- Paleta oficial confirmada: blanco y negro. El rojo fue descartado expresamente.
+- Paleta oficial confirmada: blanco, negro y grises. Las fotografias de producto conservan sus colores originales. El rojo fue descartado expresamente.
 - Direccion visual confirmada: una orden de taller inspirada en hojas viajeras de fabricacion y etiquetas de control de calidad, aplicada con claridad comercial.
 - Voz clara, profesional, cercana y precisa en espanol colombiano.
 - Inferido del brief: el publico inicial es mixto; el mensaje equilibra productos decorativos o de regalo con encargos personalizados.

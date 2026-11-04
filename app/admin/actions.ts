@@ -9,6 +9,10 @@ import { deleteProductImages, ImageUploadError, productImageFiles, uploadProduct
 
 export type ProductActionState = { error: string };
 
+function isUniqueViolation(error: unknown) {
+  return Boolean(error && typeof error === "object" && "code" in error && error.code === "23505");
+}
+
 async function requireAdmin() {
   if (!(await getAdminSession())) redirect("/admin/login");
 }
@@ -28,14 +32,16 @@ export async function createProduct(_previous: ProductActionState, formData: For
   const product = parsed.data;
   let uploaded: string[] = [];
   try {
+    const sql = db();
+    const duplicate = await sql<{ id: string }>`SELECT id::text FROM products WHERE slug=${product.slug} LIMIT 1`;
+    if (duplicate[0]) return { error: `El slug “${product.slug}” ya está en uso. Edita el slug o cambia el nombre.` };
     uploaded = await uploadProductImages(product.slug, productImageFiles(formData));
     const imageUrls = uploaded.length ? uploaded : product.image_urls;
-    const sql = db();
-    await sql`INSERT INTO products (name, slug, description, category, product_type, price, stock, production_hours, shipping_days, status, image_url, image_urls, makerworld_url, featured, active) VALUES (${product.name}, ${product.slug}, ${product.description}, ${product.category}, ${product.product_type}, ${product.price}, ${product.stock}, ${product.production_hours}, ${product.shipping_days}, ${product.status}, ${imageUrls[0] || ""}, ${imageUrls}, ${product.makerworld_url || null}, ${product.featured}, ${product.active})`;
+    await sql`INSERT INTO products (name, slug, description, category, product_type, tags, price, stock, production_hours, shipping_days, status, image_url, image_urls, makerworld_url, featured, active) VALUES (${product.name}, ${product.slug}, ${product.description}, ${product.category}, ${product.product_type}, ${product.tags}, ${product.price}, ${product.stock}, ${product.production_hours}, ${product.shipping_days}, ${product.status}, ${imageUrls[0] || ""}, ${imageUrls}, ${product.makerworld_url || null}, ${product.featured}, ${product.active})`;
   } catch (error) {
     await deleteProductImages(uploaded);
     if (error instanceof ImageUploadError) return { error: error.message };
-    return { error: error instanceof Error && error.message.includes("products_slug_key") ? "Ese slug ya está en uso." : "No fue posible guardar el producto." };
+    return { error: isUniqueViolation(error) ? `El slug “${product.slug}” ya está en uso. Edita el slug o cambia el nombre.` : "No fue posible guardar el producto. Revisa los datos e intenta nuevamente." };
   }
   refreshStore(product.slug);
   redirect("/admin/productos?success=created");
@@ -50,6 +56,8 @@ export async function updateProduct(_previous: ProductActionState, formData: For
   const sql = db();
   const current = await sql<{ image_urls: string[]; slug: string }>`SELECT image_urls, slug FROM products WHERE id=${id}::uuid LIMIT 1`;
   if (!current[0]) return { error: "El producto ya no existe." };
+  const duplicate = await sql<{ id: string }>`SELECT id::text FROM products WHERE slug=${product.slug} AND id<>${id}::uuid LIMIT 1`;
+  if (duplicate[0]) return { error: `El slug “${product.slug}” ya está en uso. Elige uno diferente.` };
   const oldImages = current[0].image_urls || [];
   let uploaded: string[] = [];
   try {
@@ -57,12 +65,12 @@ export async function updateProduct(_previous: ProductActionState, formData: For
     uploaded = await uploadProductImages(product.slug, files);
     const removeImages = formData.get("remove_images") === "on";
     const imageUrls = uploaded.length ? uploaded : removeImages ? [] : oldImages;
-    await sql`UPDATE products SET name=${product.name}, slug=${product.slug}, description=${product.description}, category=${product.category}, product_type=${product.product_type}, price=${product.price}, stock=${product.stock}, production_hours=${product.production_hours}, shipping_days=${product.shipping_days}, status=${product.status}, image_url=${imageUrls[0] || ""}, image_urls=${imageUrls}, makerworld_url=${product.makerworld_url || null}, featured=${product.featured}, active=${product.active} WHERE id=${id}::uuid`;
+    await sql`UPDATE products SET name=${product.name}, slug=${product.slug}, description=${product.description}, category=${product.category}, product_type=${product.product_type}, tags=${product.tags}, price=${product.price}, stock=${product.stock}, production_hours=${product.production_hours}, shipping_days=${product.shipping_days}, status=${product.status}, image_url=${imageUrls[0] || ""}, image_urls=${imageUrls}, makerworld_url=${product.makerworld_url || null}, featured=${product.featured}, active=${product.active} WHERE id=${id}::uuid`;
     if (uploaded.length || removeImages) await deleteProductImages(oldImages);
   } catch (error) {
     await deleteProductImages(uploaded);
     if (error instanceof ImageUploadError) return { error: error.message };
-    return { error: "No fue posible actualizar el producto. Comprueba el slug." };
+    return { error: isUniqueViolation(error) ? `El slug “${product.slug}” ya está en uso. Elige uno diferente.` : "No fue posible actualizar el producto. Revisa los datos e intenta nuevamente." };
   }
   refreshStore(product.slug);
   refreshStore(current[0].slug);

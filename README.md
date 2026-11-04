@@ -85,11 +85,11 @@ Una nueva selección reemplaza las fotografías anteriores. Los archivos antiguo
 
 ## Funciones
 
-- Catálogo exclusivamente desde Neon con búsqueda, categoría, tipo y orden por nombre o precio.
+- Catálogo exclusivamente desde Neon con búsqueda, categoría, tipo, etiquetas, rango de precio y orden por nombre o precio.
 - Detalle con inventario, tiempos de impresión y envío, galería y enlace MakerWorld.
 - WhatsApp con cantidad, precio unitario, total estimado y solicitud explícita de confirmación.
 - Solicitudes personalizadas con nombre, contacto, descripción, cantidad, ciudad y referencias.
-- Panel protegido: CRUD, fotografías, visibilidad, destacados e inventario.
+- Panel protegido: CRUD, slug automático editable, etiquetas múltiples, fotografías, visibilidad, destacados e inventario.
 - Registro, verificación por código OTP, inicio de sesión, recuperación de contraseña y cuenta de cliente sobre Neon Auth.
 - Dashboard calculado desde Neon: total, visibles, agotados, pocas unidades y valor de inventario.
 - Estados vacíos y errores de conexión sin datos ficticios en producción.
@@ -107,7 +107,7 @@ npm run build
 npm audit --omit=dev
 ```
 
-Con un build ejecutándose en el puerto 3001 también puedes correr `npm run e2e:public`.
+Con un build ejecutándose en el puerto 3001 también puedes correr `npm run e2e:public`. `npm run e2e:image` crea una fotografía temporal en Blob, guarda su URL y etiquetas en Neon, comprueba catálogo y detalle, y elimina ambos recursos al terminar.
 
 ## Publicar en Vercel
 
