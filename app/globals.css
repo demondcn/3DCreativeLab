@@ -181,14 +181,24 @@ textarea { resize: vertical; }
 .admin-panel h2 { font-family: var(--font-display); font-size: 2rem; text-transform: uppercase; }
 .admin-panel ul { margin: 0; padding: 0; list-style: none; }
 .admin-panel li { display: flex; justify-content: space-between; padding: .8rem 0; border-top: 2px solid; }
-.admin-table-wrap { overflow-x: auto; background: white; border: 3px solid; }
+.admin-filter-summary { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin: 1rem 0; }
+.admin-filter-summary p { margin: 0; font-variant-numeric: tabular-nums; }
+.clear-filters { min-height: 42px; padding: .55rem .8rem; color: white; background: var(--ink); border: 2px solid var(--ink); font-weight: 800; }
+.admin-table-wrap { max-width: 100%; overflow-x: auto; background: white; border: 3px solid; scrollbar-color: var(--ink) #bbb; }
 .admin-table { width: 100%; border-collapse: collapse; }
+.admin-products-table { min-width: 1180px; }
 .admin-table th, .admin-table td { padding: .9rem; text-align: left; border-bottom: 2px solid #999; vertical-align: middle; }
 .admin-table th { color: white; background: #444; font-size: .75rem; text-transform: uppercase; }
 .admin-table td small { display: block; color: #555; }
+.admin-filter-row th { padding: .65rem; vertical-align: top; background: var(--ink); }
+.admin-filter-row label { display: grid; gap: .3rem; margin-bottom: .55rem; color: white; font-size: .65rem; letter-spacing: .03em; }
+.admin-filter-row label:last-child { margin-bottom: 0; }
+.admin-filter-row select { min-width: 142px; min-height: 38px; padding: .4rem .5rem; border-width: 1px; font-size: .75rem; font-weight: 700; text-transform: none; }
+.numeric-cell { white-space: nowrap; font-variant-numeric: tabular-nums; }
+.admin-filter-empty { padding: 2.5rem !important; text-align: center !important; font-weight: 800; }
 .stock-form { display: flex; gap: .4rem; }
 .stock-form input { width: 75px; min-height: 38px; }
-.stock-form button { color: white; background: var(--ink); border: 0; font-weight: 700; }
+.stock-form button { min-height: 38px; color: white; background: var(--ink); border: 0; font-weight: 700; }
 .row-actions { display: flex; align-items: center; gap: .8rem; }
 .row-actions .danger { color: var(--ink); }
 .product-form { max-width: 1000px; }
